@@ -1,0 +1,17 @@
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+ <classes>
+  <class name="com.crm.Contacttest.CreateContactTest"/>
+ 	 <method>
+  			<include name = "createContactwithOrg"/>
+  	</method>
+  
+  <class name="com.crm.Contacttest.CreateOrgwithNameAndIndustry"/>
+  	<method>
+  			<include name = "createOrg"/>
+  	</method>
+  
+ </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

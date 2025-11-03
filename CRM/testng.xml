@@ -1,0 +1,14 @@
+<suite name="Suite">
+
+<Listeners>
+<listener class-name="com.crm.ListenersUtility.ListIMpClass.class"/>
+</Listeners>
+
+  <test thread-count="5" name="Test">
+  <classes>
+  <class name="com.crm.Contacttest.CreateContactWithLastNameTest"/>
+  <class name="com.crm.Contacttest.CreateOrgwithNameAndIndustry"/>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+

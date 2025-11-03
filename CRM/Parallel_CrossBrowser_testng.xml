@@ -1,0 +1,20 @@
+
+<suite name="Suite" parallel="tests" thread-count="2">
+ 
+  <test  name="TestRunner-1_Chrome">
+  <parameter name="BROWSER" value = "chrome"/>
+    <classes>
+      <class name="com.crm.Practise.ExpOn_BM_and_AM"/>
+      <class name="com.crm.Practise.ExpOnDataProvider"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="TestRunner-2_Firefox">
+  <parameter name="BROWSER" value = "firefox"/>
+    <classes>
+      <class name="com.crm.Practise.ExpOn_BM_and_AM"/>
+      <class name="com.crm.Practise.ExpOnDataProvider"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

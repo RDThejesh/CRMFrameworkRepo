@@ -1,0 +1,17 @@
+
+<suite name="Suite">
+  <test thread-count="5" name="Test-1">
+    <classes>
+      	<class name="com.crm.Practise.ExpOn_BM_and_AM"/>
+     	 <class name="com.crm.Practise.ExpOnDataProvider"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test-2">
+    <classes>
+      	<class name="com.crm.Practise.ExpOnEnabled"/>
+      	<class name="com.crm.Practise.ExpOnDependsOnMethods"/>
+   </classes>
+ 
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
