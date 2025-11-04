@@ -30,10 +30,9 @@ public class HomePage
 	{
 		Organizationslink.click();
 	}
-	
 	public WebElement getProductslink() 
 	{
 		return Productslink;
-	}
 
+	}
 }
