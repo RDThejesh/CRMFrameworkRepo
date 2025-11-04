@@ -17,6 +17,14 @@ public class HomePage
 	@FindBy(xpath="//a[text()='Contacts']")
 	private WebElement Contactslink;
 	
+	public WebElement getProductslink() {
+		return Productslink;
+	}
+
+	@FindBy(xpath="//a[text()='Products']")
+	private WebElement Productslink;
+	
+	
 	public HomePage(WebDriver driver)
 	{
 		PageFactory.initElements(driver,this);
